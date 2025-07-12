@@ -6,7 +6,7 @@ This repository is created solely for testing and triggering GitHub webhook even
 -  Pull Request
 -  Merge
 
-The webhook for this repository is connected to a Flask server hosted in a separate repository: [`webhook-repo`](https://github.com/Pragat2021/webhook-repo).
+The webhook for this repository is connected to a Flask server hosted in a separate repository: [`webhook-repo`](https://github.com/tanishka167/webhook-repo).
 
 ---
 
@@ -24,27 +24,29 @@ This repo is used to:
 
 ### 1. Make a Push
 
-```bash
-git clone https://github.com/Pragat2021/action-repo.git
+```
+git clone [https://github.com/tanishka167/webhook-repo]
 cd action-repo
 echo "test" >> test.txt
 git add .
 git commit -m "Testing push event"
 git push
 
+```
 
  2. Open a Pull Request
 Create a new branch:
 
-bash
+```
 Copy
 Edit
 git checkout -b test-branch
 
+```
 
 Make a change and push it:
 
-bash
+```
 Copy
 Edit
 echo "another test" >> test2.txt
@@ -52,11 +54,9 @@ git add .
 git commit -m "PR test"
 git push --set-upstream origin test-branch
 
-Open GitHub and create a pull request to main or master.
-
-
-
+```
 
 
  3. Merge a Pull Request
+    
 Once the PR is reviewed, merge it on GitHub. This will trigger a pull_request with action: closed and merged: true.
