@@ -1,0 +1,7 @@
+This is a test file used to trigger webhook events (push, pull request, and merge).
+Edit this file and push → triggers a push event
+
+Create a new branch, edit the file, and push → triggers pull_request
+
+Merge that PR → triggers a merge event
+
