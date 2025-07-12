@@ -1,16 +1,16 @@
-# 🚀 Action Repo – GitHub Webhook Trigger
+# Action Repo – GitHub Webhook Trigger
 
 This repository is created solely for testing and triggering GitHub webhook events such as:
 
-- 🔄 Push
-- 📥 Pull Request
-- ✅ Merge
+-  Push
+-  Pull Request
+-  Merge
 
 The webhook for this repository is connected to a Flask server hosted in a separate repository: [`webhook-repo`](https://github.com/Pragat2021/webhook-repo).
 
 ---
 
-## 📌 Purpose
+## Purpose
 
 This repo is used to:
 
@@ -20,9 +20,9 @@ This repo is used to:
 
 ---
 
-## 📦 How to Use
+## How to Use
 
-### ✅ 1. Make a Push
+### 1. Make a Push
 
 ```bash
 git clone https://github.com/Pragat2021/action-repo.git
